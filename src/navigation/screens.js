@@ -1,0 +1,5 @@
+export const HOME_SCREEN = 'HOME_SCREEN';
+export const SETTINGS_SCREEN = 'SETTINGS_SCREEN';
+export const AUTH_SCREEN = 'AUTH_SCREEN';
+export const SIGNIN_SCREEN = 'SIGNIN_SCREEN';
+export const SIGNUP_SCREEN = 'SIGNUP_SCREEN';
