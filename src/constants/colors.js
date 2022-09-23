@@ -1,5 +1,6 @@
 export default {
   primary: 'dodgerblue',
   statusBar: 'dodgerblue',
-  // primary: '#4d089a',
+  bottomIcon: '#555',
+  white: 'white',
 };

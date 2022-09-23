@@ -6,7 +6,7 @@ const clear = async () => {
 
 const get = async key => {
   return AsyncStorage.getItem(key, (error, result) => {
-    return result;
+    return JSON.parse(result);
   });
 };
 

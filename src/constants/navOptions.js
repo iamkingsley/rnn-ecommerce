@@ -29,8 +29,8 @@ export default {
     // icon: require('tab.png'),
     // iconColor: 'red',
     // textColor: Colors.primary,
-    // selectedIconColor: Colors.accent,
-    // selectedTextColor: Colors.primary,
+    // selectedIconColor: colors.black,
+    // selectedTextColor: colors.black,
     fontFamily: 'Open-Sans-Bold',
     // fontWeight: 'regular', // Available on iOS only, will ignore fontFamily style and use the iOS system fonts instead. Supported weights are: 'regular', 'bold', 'thin', 'ultraLight', 'light', 'medium', 'semibold', 'heavy' and 'black'.
     // fontSize: 10

@@ -8,7 +8,7 @@ import {
   TextStyle,
   TextInputProps,
 } from 'react-native';
-import { FieldError } from 'react-hook-form';
+import {FieldError} from 'react-hook-form';
 interface Props extends TextInputProps {
   name: string;
   label?: string;
@@ -18,7 +18,7 @@ interface Props extends TextInputProps {
 
 export default React.forwardRef<any, Props>(
   (props, ref): React.ReactElement => {
-    const { label, labelStyle, error, ...inputProps } = props;
+    const {label, labelStyle, error, ...inputProps} = props;
 
     return (
       <View style={styles.container}>
@@ -26,13 +26,13 @@ export default React.forwardRef<any, Props>(
         <TextInput
           autoCapitalize="none"
           ref={ref}
-          style={[styles.input, { borderColor: error ? '#fc6d47' : '#c0cbd3' }]}
+          style={[styles.input, {borderColor: error ? '#fc6d47' : '#c0cbd3'}]}
           {...inputProps}
         />
         <Text style={styles.textError}>{error && error.message}</Text>
       </View>
     );
-  }
+  },
 );
 
 const styles = StyleSheet.create({
